@@ -48,3 +48,11 @@ customers.push({
 })
 
 console.log(customers)
+
+let order = {
+    orderID: 461,
+    customerName: "Joseph",
+    amount: 78.49
+}
+let calculateTax = ((order.amount * 0.1) + order.amount)
+console.log(order, "Total with Taxes: ",calculateTax.toFixed(2))
