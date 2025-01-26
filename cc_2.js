@@ -22,3 +22,29 @@ employee.department = "HR"
 employee.position = "Senior Manager"
 
 console.log(employee)
+
+let customers = [
+{
+    name: "Joseph", 
+    email: "Joseph23@gmail.com",
+    purchaseAmount: 154.53
+},
+{
+    name: "Ana",
+    email: "Ana7@yahoo.com",
+    purchaseAmount: 84.99
+},
+{
+    name: "Edward",
+    email: "Eddie74@gmail.com",
+    purchaseAmount: 789.15
+}
+]
+
+customers.push({
+    name: "Zack",
+    email: "Zacko01@gmail.com",
+    purchaseAmount: 124.68
+})
+
+console.log(customers)
